@@ -1,0 +1,22 @@
+.content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2; /* Limit to two lines */
+}
+
+.footer-content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1; /* Limit to two lines */
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+.overflow-auto-y {
+  overflow-y: auto;
+  max-height: calc(100vh - 220px);
+}
